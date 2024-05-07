@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Divs</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .outerBox {
+            height: 300px;
+            width: 500px;
+            background-color: antiquewhite;
+        }
+
+        #boxone {
+            background-color: black;
+            height: 50px;
+            width: 500px;
+            border: 3px groove rgb(193, 215, 19);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aqua;
+        }
+
+        .firstBox {
+            height: 300px;
+            width: 150px;
+            border: 3px groove rgb(193, 215, 19);
+            background-color: blueviolet;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+        }
+
+        .thirdBox {
+            height: 300px;
+            width: 150px;
+            border: 3px groove rgb(193, 215, 19);
+            background-color: rgb(33, 199, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+        }
+
+        .secondBox {
+            height: 300px;
+            width: 200px;
+            background-color: rgb(115, 218, 182);
+            float: left;
+        }
+
+        .topBox {
+            height: 100px;
+            width: 200px;
+            border: 3px groove rgb(193, 215, 19);
+            background-color: rgb(0, 75, 168);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+        }
+
+        .bottomBox {
+            height: 200px;
+            width: 200px;
+            border: 3px groove rgb(193, 215, 19);
+            background-color: rgb(198, 0, 216);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+        }
+
+        .lastbox {
+            background-color: brown;
+            height: 50px;
+            width: 500px;
+            border: 3px groove rgb(193, 215, 19);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .end {
+            background-color: rgb(30, 196, 190);
+            height: 50px;
+            width: 500px;
+            border: 3px groove rgb(193, 215, 19);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <div id="boxone"><b>Header</b></div>
+
+        <div class="outerBox">
+            <div class="firstBox"><b>Dockleft</b></div>
+            <div class="secondBox">
+                <div class="topBox"><b>Error</b></div>
+                <div class="bottomBox"><b>Content</b></div>
+            </div>
+            <div class="thirdBox"><b>DockRight</b></div>
+        </div>
+        <div class="lastbox"><b>DockBottom</b></div>
+        <div class="end"><b>Footer</b></div>
+
+    </div>
+
+</body>
+
+</html>
